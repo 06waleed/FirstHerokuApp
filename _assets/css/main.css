@@ -1,0 +1,609 @@
+/*
+Theme Name: I-Tech Laptop
+Theme URI: http://Itechlaptop.com
+Author: Ayaz Ahmed Mast
+Author URI: http://blog.ayzeetech.com/
+*/
+
+
+@font-face {
+	font-family: Jupiter;
+	src: url();
+	src: url('../fonts/jupiter.ttf');
+}
+h1, h2, h3, h4, h5, h6, p {
+	padding: 0px;
+	margin: 0px;
+	font: 100%;
+	font-size: 14px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.red {
+	background-color: red;
+}
+.blue {
+	background-color: blue;
+}
+.green {
+	background-color: green;
+}
+.MB-10 {
+	margin-bottom: 10px;
+}
+.MB-20 {
+	margin-bottom: 20px;
+}
+.MB-30 {
+	margin-bottom: 30px;
+}
+#top-social-bar {
+	background-color: #5c6974;
+	height: 45px;
+}
+.top-email {
+	padding-top: 10px;
+	color: #FFF;
+}
+.top-social-icon ul {
+	padding-top: 10px;
+	margin-left: 330px;
+}
+.top-social-icon ul li {
+	float: left;
+	margin-right: 10px;
+}
+#top-nav-bar {
+	height: 85px;
+	background-color: #68b3de;
+	background: -webkit-linear-gradient(#6FBEEC, #599BBF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#6FBEEC, #599BBF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#6FBEEC, #599BBF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#6FBEEC, #599BBF); /* Standard syntax */
+	border-bottom: 2px solid #4b82a2;
+}
+.logo {
+	font-family: Jupiter;
+	font-size: 45px;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+.top-nav {
+}
+.top-nav ul {
+	padding-top: 20px;
+	float: right;
+	display: block;
+}
+.top-nav ul li {
+	float: left;
+	margin-right: 10px;
+	font-size: 30px;
+	font-family: Jupiter;
+
+}
+.top-nav ul li:last-child {
+	margin-right: 0;
+}
+.top-nav ul li a {
+	color: #FFF;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #000;
+	padding: 6px;
+}
+.top-nav ul li a:hover {
+	
+	background-color: #64727d;
+	text-decoration: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+#top-search-bar {
+	background-color: #fffff5;
+	height: 48px;
+	border-bottom: 1px solid #b2b2b2;
+	padding-top: 15px;
+	margin-bottom: 24px;
+}
+.slideshow {
+	height: 368px;
+	border: 1px solid #bababa;
+	-webkit-box-shadow: -1px 1px 20px 0px rgba(197,197,197,1);
+	-moz-box-shadow: -1px 1px 20px 0px rgba(197,197,197,1);
+	box-shadow: -1px 1px 20px 0px rgba(197,197,197,1);
+	margin-bottom: 24px;
+}
+.slideshow-thumb {
+	padding: 20px;
+}
+
+.box, .contain-box {
+	border: 1px solid #bababa;
+	-webkit-box-shadow: -1px 1px 10px 0px rgba(197,197,197,1);
+	-moz-box-shadow: -1px 1px 10px 0px rgba(197,197,197,1);
+	box-shadow: -1px 1px 10px 0px rgba(197,197,197,1);
+	margin-bottom: 20px;
+}
+
+.contain-box
+{
+	margin-left: 20px;
+}
+.box-header {
+	background: -webkit-linear-gradient(#ffffff, #eae7e7); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#ffffff, #eae7e7); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#ffffff, #eae7e7); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#ffffff, #eae7e7); /* Standard syntax */
+	height: 50px;
+	border-bottom: 1px solid #bababa;
+}
+.box-header h4 {
+	margin: 0;
+	padding: 0;
+	padding-top: 5px;
+	padding-left: 15px;
+	font-family: Jupiter;
+	font-size: 36px;
+	text-shadow: 1px 1px 1px #FFF;
+	color: #868686;
+	letter-spacing: 1px;
+
+}
+.box-nav ul li {
+	border-bottom: 1px dotted #dedede;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.box-nav ul li:hover {
+	background-color: #f8f8f8;
+}
+.box-nav ul li:last-child {
+	border: 0px;
+}
+.box-nav ul li a {
+	color: #5f5f5f;
+	text-decoration: none;
+}
+.follow-us ul li {
+	float: left;
+}
+.follow-us ul li:hover {
+	background: #fff;
+}
+.subscriber_area {
+	padding-top: 20px;
+}
+.inputSubscribEmail, .subscriberBtn
+{
+	margin-left: 20px;
+}
+.contain-box {
+}
+.lapi-details {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.seprator {
+	border-bottom: 1px dotted #dedede;
+	width: 550px;
+	margin: 0 auto ;
+}
+.laptop-thumbs {
+	width: 216px;
+}
+.laptop-details {
+	width: 385px;
+	height: 170px;
+}
+.laptop-details h1 {
+	font-size: 18px;
+	color: #485e72;
+	margin-bottom: 10px;
+}
+.laptop-details p {
+	margin-bottom: 5px;
+}
+.laptop-details p:nth-child(3) {
+	color: #f95122;
+	font-weight: bold;
+}
+.laptop-details p:nth-child(4) {
+	padding-right: 25px;
+}
+.view-detail {
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+#footer {
+	background-color: #252425;
+	text-align: center;
+}
+.footer-main {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+#footer h5 {
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+#footer p {
+	color: #888888;
+	font-size: 14px;
+	margin-bottom: 18px;
+	margin-top: 10px;
+}
+#footer a
+{
+	color: #F6F6FF;
+	line-height: 24px;
+}
+
+#footer a:hover
+{
+	color: #0099CC;
+	text-decoration: none;
+}
+#footer h3
+{
+	font-size: 18px;
+	color: #888888;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+
+
+/*****************************************************************************************************
+
+@ SINGLE FILE DEVELOPMENT
+
+****************************************************************************************************/
+
+.single-post-thumbnail
+{
+	padding: 10px;
+}
+.single-post-thumbnail ul 
+{
+	margin-top: 10px;
+
+}
+.single-post-thumbnail ul li
+{
+	float: left;
+	margin-right: 13px;
+
+
+}
+
+.single-post-thumbnail p
+{
+	margin-bottom: 35px;
+	padding-top: 100px;
+}
+
+.single-post-thumbnail h1
+{
+	font-size: 20px;
+}
+
+#resultSet p
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: Jupiter;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+
+/*************************************************************************************************************************
+
+@ ABOUT US DEVELOPMENT
+
+**************************************************************************************************************************/
+
+.aboutus p
+{
+	font-size: 18px;
+	padding-top: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: jupiter;
+}
+
+.aboutus h2
+{
+	font-size: 35px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	font-weight: bold;
+    border-bottom: 1px solid #b2b2b2;
+
+}
+
+.aboutus p span
+{
+   transition: background-color 0.5s ease;
+	background: #6bb9e5;
+	border-radius: 5px;
+   color: red;
+   line-height: 50px;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+.aboutus
+{
+	padding-bottom: 20px;
+}
+/*****************************************************************************************************
+
+@ WEBMASTER DEVELOPMENT
+
+****************************************************************************************************/
+.webmaster-imgs
+{
+	width: 250px;
+}
+.webmaster-imgs ul
+{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.webmaster-info
+{
+	width: 360px;
+}
+.webmaster-info h1
+{
+	font-size: 25px;
+	text-shadow: 1px 1px 1px #000000;
+	margin: 20px 0 20px 0;
+}
+
+.webmaster-info p
+{
+	font-size: 12px;
+	text-align: justify;
+	padding: 0 30px 40px 0;
+}
+.model-heading
+{
+	font-size: 24px;
+}
+.about-para p
+{
+	margin-bottom:10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.about-para p:first-child
+{
+	padding-top: 20px;
+}
+.about-para p:nth-child(4)
+{
+	padding-bottom: 20px;
+}
+
+.alert-zone
+{
+	width: 500px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+
+
+.page-heading h1 {
+	font-size: 24px;
+	padding-top: 20px;
+}
+.project-details {
+	padding-top: 10px;
+}
+.project-1 h2 
+{
+	
+	text-transform: uppercase;
+	font-family: Jupiter;
+	color: #000;
+	font-size: 26px;
+	margin-bottom: 5px;
+}
+
+
+.project-1 a:hover
+{
+	text-decoration: none;
+}
+
+.setbtn 
+{
+	font-family: Jupiter;
+	font-size: 32px;
+}
+
+
+.project-1
+{
+	border:  1px green solid;
+	text-align: center;
+	
+	margin: 30px 45px 30px 45px;
+	padding: 5px 5px 5px 5px;
+	
+}
+
+
+.contact-us
+{
+	margin-top: 10px;
+}
+
+textarea {
+	resize: none;
+}
+
+.mt
+{
+	margin-top: 40px;
+}
+
+.mb
+{
+	margin-bottom: 20px;
+}
+
+.setimage1
+{
+	margin-left: 160px;
+}
+
+.setp p
+{
+	font-size: 24px;
+}
+
+#seth1 h1
+{
+	font-size: 32px;
+}
+
+#setAnswer
+{
+	font-size: 24px;
+}
+
+.setgap
+{
+	padding-left: 20px;
+}
+
+.setbut
+{
+	margin-top: 44px;
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+
+.back
+{
+	background-color: #EBF0F5;
+}
+
+.setfont
+{
+	font-family: Jupiter;
+}
+
+#setbtn
+{
+	margin-bottom: 20px;
+}
+
+.setRules h1
+{
+	font-family: Jupiter;
+	font-size: 26px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.setRules h2
+{
+	font-family: Jupiter;
+	font-size: 56px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.setRules p
+{
+	font-size: 18px;
+	font-family: Helvetica;
+	text-shadow: 2px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.setRules p span
+{	
+	font-size: 36px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-family: Jupiter;
+}
+.setForm
+{
+	margin:20px 0px 20px 325px;
+	border: 1px solid black;
+}
+
+.setScore
+{
+	border: 1px solid #007A99;
+	margin-bottom: 10px;
+	padding-top: 5px;
+}
+
+.setScore p
+{
+	line-height: 15px;
+}
+
+#setMain
+{
+	margin-top: 75px;
+	padding-top: 10px;
+}
+
+.setButton button
+{
+	margin-left: 390px;
+	margin-bottom: 10px;
+}
+
+.testSet
+{
+	margin-top:20px;
+	margin-left: 200px;
+	margin-bottom: 20px;
+}
+
+.testSet h2
+{
+	text-align: center;
+	font-family: Jupiter;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.testSet p
+{
+	text-align: center;
+}
+
+.testSet
+{
+
+}
+
+#setDiv
+{
+	border: 1px solid black;
+	margin: 30px 0 10px 0;
+}
